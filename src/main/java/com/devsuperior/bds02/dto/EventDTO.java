@@ -13,7 +13,7 @@ public class EventDTO implements Serializable {
 	private LocalDate date;
 	private String url;
 	private Long cityId;
-	
+		
 	public EventDTO() {
 	}
 
@@ -32,7 +32,7 @@ public class EventDTO implements Serializable {
 		url = entity.getUrl();
 		cityId = entity.getCity().getId();
 	}
-
+	
 	public Long getId() {
 		return id;
 	}
